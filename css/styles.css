@@ -10,3 +10,7 @@ main {
 footer {
     text-align: center;
 }
+
+.my-name {
+    font-size: 1.5rem;
+}
