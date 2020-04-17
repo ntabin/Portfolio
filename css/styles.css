@@ -1,0 +1,67 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+/* html, body {
+    height: 100%;
+} */
+
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: darkgreen solid 5px;
+    height: 60px;
+}
+
+nav {
+    background-color:white;
+}
+
+header a {
+    display: inline;
+    color: lightskyblue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    background: #ddd;
+    color: black;
+}
+.my-name {
+    font-size: 50px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#content {
+    margin-top: 60px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.first-section {
+    margin-top: 65px;
+}
+
+section {
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    width: 80%
+}
+
+.first-section {
+    margin-top: 80px;
+}
+
+#contect {
+    padding-top: 45px; 
+    margin-top: -45px; 
+}
