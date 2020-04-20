@@ -1,14 +1,8 @@
-function scrollToElement() {
-    // const element = document.getElementById('journey');
-    // console.log(element);
-    // const headerOffset = 45;
-    // const elementPosition = element.getBoundingClientRect().top();
-    // const offsetPosition = elementPosition - headerOffset;
-    // window.scrollin({
-    //     top: offsetPosition,
-    //     behavior: 'smooth',
-    //     block: 'center'
-    // });
+function setActiveLink(element) {
+    var links = document.querySelectorAll('header nav a');
+    [...links].forEach(a => {
+        a.classList.remove('active-link');
+    });
 
-    element.scrollIntoView({ behavior: 'instant', block: 'center' });
-};
+   element.className = "active-link";
+}
