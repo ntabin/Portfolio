@@ -1,44 +1,10 @@
-header {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: darkgreen solid 5px;
-    height: 36px;
-    padding: 10px;
-    background-color:white;
+.separator {
+    height: 60px;
+    width: 100%; 
 }
 
-header a {
-    display: inline;
-    color: lightskyblue;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-header nav a:hover {
-    background: #ddd;
-    color: black;
-}
-.my-name {
-    font-size: 50px;
-    color: darkgreen;
-    font-weight: bold;
-}
-
-section {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    font-size: 20px;
-    width: 70%;
-    padding-top: 60px; 
-    margin-top: -30px;
-}
-
-.active-link {
-    background: purple;
+:root {
+    --header-back-color: blueviolet;
+    --header-fore-color: white;
+    --card-border-color: blueviolet;
 }
