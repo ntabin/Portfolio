@@ -8,3 +8,9 @@
     --header-fore-color: white;
     --card-border-color: blueviolet;
 }
+
+.header-offset {
+    margin-top: -30px;
+    padding-top: 60px;
+}
+
