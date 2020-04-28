@@ -3,188 +3,205 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/mini-default.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Nathaniel Tabin, Software Engineer</title>
 </head>
 
 <body>
-    <h1>Hello WOrld</h1>
-    <!-- <header>
-        <nav>
-            <a class="my-name" href="#main">Nathaniel Tabin</a> |
-            <a href="#journey">Journey</a> |
-            <a href="#sideHustle">Side Hustle</a> |
-            <a href="#contact">Contact</a>
-        </nav>
+    <header class="row sticky">
+        <a href="#main" class="col-sm logo"><span class="icon-user"></span>Nathaniel Tabin</a>
+        <a href="#resume" class="button hidden-sm">Personal Stats</a>
+        <a href="#portfolio" class="button hidden-sm">Personal Projects</a>
+        <a href="#contact" class="button hidden-sm">Contact Me</a>
+        </div>
+        <label for="drawer-control" class="drawer-toggle hidden-md hidden-lg"></label>
     </header>
-    <section id="content">
-        <section id="main">
-            <h2>I build</h2>
-            <ul>
-                <li>Websites like this one.</li>
-                <li>REST API</li>
-                <li>Mobile App using Ionic</li>
-                <li>Desktop App using Winforms</li>
-            </ul>
 
-            <h3>I am a Backend Developer</h3>
-            <p>C#, .NET/.NET Core, ASP, Web API</p>
+    <div class="hidden-md hidden-lg">
+        <input type="checkbox" id="drawer-control" class="drawer">
+        <div>
+            <label for="drawer-control" class="drawer-close"></label>
+            <p><a href="#resume" onclick="closeMenu()">Personal Stats</a></p>
+            <p><a href="#portfolio" onclick="closeMenu()">Personal Projects</a></p>
+            <p><a href="#contact" onclick="closeMenu()">Contact Me</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md col-lg">
+                <section id="main" class="full-height header-offset">
+                    <div class="card fluid">
+                        <h2 class="section double-padded dark">About Me</h2>
+                        <div class="section">
+                            <p>I build web apps, desktop Apps and mobile Apps</p>
+                        </div>
+                        <div class="section">
+                            <span class="icon-info"></span><strong>I am a Backend Developer</strong>
+                            <p>C#, .NET/.NET Core, ASP, Web API</p>
+                        </div>
+                        <div class="section">
+                            <strong>And also a Frontend Developer</strong>
+                            <p>HTML, CSS, JavaScript/TypeScript, Angular, Ionic</p>
+                        </div>
+                        <div class="section">
+                            <strong>Specifically</strong>
+                            <ul>
+                                <li>Software Engineer</li>
+                                <li>Full Stack Developer</li>
+                            </ul>
+                        </div>
+                        <div class="section">
+                            <strong>Not a</strong>
+                            <ul>
+                                <li>Web Artisan</li>
+                                <li>10x Rockstar</li>
+                                <li>Designer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="resume" class="full-height header-offset">
+                    <div>
+                        <div class="card fluid">
+                            <h2 class="section double-padded dark">Personal Stats</h2>
+                            <p class="section">I have done and seen some things.</p>
+                            <h3 class="section dark">Professional Experience</h3>
+                            <div class="section">
+                                <strong>Software Engineer</strong>, <a href="https://www.you-source.com/" target="_blank">You_Source</a>, July 2019 – Present
+                            </div>
+                            <div class="section">
+                                <p>I do front and back-end development primarily using C#.</p>
+                            </div>
 
-            <h3>I am a Frontend Developer</h3>
-            <p>HTML, CSS, JavaScript/TypeScript, Angular, Ionic</p>
+                            <div class="section">
+                                <strong>Science Research Specialist 1</strong>, <a href="https://asti.dost.gov.ph/" target="_blank">DOST-ASTI</a>, May 2018 –
+                                Mar
+                                2019
+                            </div>
+                            <div class="section">
+                                <p>
+                                    Project based job titled: <a href="https://asti.dost.gov.ph/communications/news-articles/hudcc-dost-astis-csd-facilitate-hbmes-end-user-training/" target="_blank">Housing Beneficiaries and Monitoring Evaluation System(HBMES)</a>  
+                                </p>
 
-            <h4>Specifically</h4>
-            <ul>
-                <li>Software Engineer</li>
-                <li>Full Stack Developer</li>
-            </ul>
+                                <ul>
+                                    <li>
+                                        I developed Web Application using based on requirement using Grails(Groovy on
+                                        Rails)
+                                        and
+                                        Angular
+                                        5.
+                                    </li>
+                                    <li>Daily use of agile development methodologies.
+                                    </li>
+                                    <li>
+                                        Scale web application to 3 million rows of data.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="section">
+                                <strong>Jr. Programmer</strong>, <a href="http://www.citistores.com/" target="blank">Citistores Inc.</a>, July 2016 – May 2018
+                            </div>
+                            <div class="section">
+                                <ul>
+                                    <li>Develop, maintain, and support application programs using Visual Studio C#.net,
+                                        VB.net,
+                                        ASP.net
+                                        MVC,
+                                        MS SQL SERVER and SQL Server Integration Services.</li>
+                                    <li>Develop Propery Control System</li>
+                                    <li>Develop ease of printing reports for new system.</li>
+                                    <li>Develop an application that tracks disk usage daily.</li>
+                                    <li>Enable archiving of data for easy retrieval if needed.</li>
+                                    <li>Enabled printing of barcode tag stickers stores.</li>
+                                </ul>
+                            </div>
 
-            <h4>Not a</h4>
-            <ul>
-                <li>Web Artisan</li>
-                <li>10x Rockstar</li>
-                <li>Designer</li>
-            </ul>
-        </section>
+                            <div class="section">
+                                <strong>Jr. Programmer</strong>, <a href="http://www.infomaninc.com/" target="_blank">Infoman, Inc.</a>, April 2014 – June 2016
+                            </div>
+                            <div class="section">
+                                <ul>
+                                    <li>
+                                        I wrote Windows Desktop Programs using Progress Open Edge and related tools.
+                                    </li>
+                                    <li>
+                                        Develop, maintain and support application programs for Salary and Loan
+                                        Management
+                                        system.
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="section dark">Skills</h3>
+                            <div class="section">
+                                <strong>Languages</strong>
+                                <p>C#, SQL, Javascript/Typescript, HTML, CSS, Groovy</p>
 
-        <section id="journey">
-            <h2>My professional journey</h2>
+                                <strong>Frameworks</strong>
+                                <p>ASP, .NET, .NET Core, Angular, Grails, Ionic</p>
 
-            <h3>
-                <strong>Jr. Programmer</strong>, <a href="#">Citistores Inc.</a>, July 2016 – May 2018
-            </h3>
-            <ul>
-                <li>Develop, maintain, and support application programs using Visual Studio C#.net, VB.net, ASP.net MVC, MS SQL SERVER and SQL Server Integration Services.</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            
-            
-            
-            
-            </ul>
+                                <strong>Database</strong>
+                                <p>SQLServer, PostgreSQL</p>
 
+                                <strong>Version Control</strong>
+                                <p>GIT</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="portfolio" class="full-height header-offset">
+                    <div class="full-height">
+                        <div class="card fluid">
+                            <h2 class="section double-padded dark">Here are some of my personal projects.</h2>
+                            <div class="section">
+                                <strong>Pocket Quotes</strong>
+                                <p><span class="icon-info"></span>Inspire yourself and others by browsing inspirational quotes from famous persons</p>
+                                <p><span class="icon-settings"></span>Angular, Typescript, Ionic</p>
+                                <p><span class="icon-link"></span><a href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes" target="_blank">View project</a></p>
+                            </div>
+                            <div class="section">
+                                <strong>My Github Page</strong>
+                                <p><span class="icon-info"></span>This is the actual website itself hosted on github.</p>
+                                <p><span class="icon-settings"></span>HTML, CSS, Javascript, <a href="https://minicss.org/" target="_blank">minicss</a></p>
+                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/ntabin.github.io" target="_blank">View project</a></p>
+                            </div>
 
+                            <div class="section">
+                                <strong>WinformBubbleQuickSort</strong></span>
+                                <p><span class="icon-info"></span>My implementation of MVC on Winforms and Strategy pattern.</p>
+                                <p><span class="icon-settings"></span>C#, .Net, Winforms</p>
+                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/WinformBubbleQuickSort" target="_blank">View project</a></p>
+                            </div>
+                            <div class="section">
+                                <strong>SQLDigger</strong><span class="icon-link"></span>
+                                <p><span class="icon-info"></span>Easy Access Data Access SQL SERVER Database (For Now).Limitations: Cannot Alter Table,Columns,Stored Procedures</p>
+                                <p><span class="icon-settings"></span>C#, .Net, Winforms, SQLServer</p>
+                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/SQLDigger" target="_blank">View project</a></p>
+                            </div>
+                            <div class="section">
+                                <strong>Weather Application</strong><span class="icon-link"></span>
+                                <p><span class="icon-info"></span>Weather forecast for your location.</p>
+                                <p><span class="icon-settings"></span>Javascript</p>
+                                <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/NMrqwy" target="_blank">View project</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="full-height header-offset">
+                    <div class="card fluid">
+                        <h2 class="section double-padded dark">Contact Me</h2>
+                        <p><a href="mailTo:nathaniel.tabin@gmail.com"><span class="icon-mail"></span>Via Email</a></p>
+                        <p><a href="https://ph.linkedin.com/in/nathaniel-tabin-119244120" target="_blank">My Linkedin page.</a></p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-1 col-lg-1"></div>
+        </div>
+    </div>
 
-
-
-
-
-            <h3>
-                <strong>Jr. Programmer</strong>, <a href="#">Infoman, Inc.</a>, April 2014 – June 2016
-            </h3>
-            <ul>
-                <li>Develop, maintain and support application programs for Salary and Loan Management system using
-                    Progress Open Edge and related tools.</li>
-            </ul>
-
-
-
-
-
-
-
-            <section id="skills">
-                <h2>Skills</h2>
-                <h3>Languages</h3>
-                <p>C#, SQL, Javascript/Typescript, HTML, CSS, Groovy</p>
-
-                <h3>Frameworks</h3>
-                <p>ASP, .NET, .NET Core, Angular, Grails, Ionic</p>
-
-                <h3>Database</h3>
-                <p>SQLServer, PostgreSQL</p>
-
-                <h3>Version Control</h3>
-                <p>GIT</p>
-            </section>
-        </section>
-
-        <section id="sideHustle">
-            <h2>Here are some of my projects.</h2>
-
-        </section>
-
-        <section id="contact">
-            <h2>
-                There are better things we can do.
-            </h2>
-
-            <p>
-                Email: <a>nathaniel.tabin@gmail.com</a>
-            </p>
-
-            <p>
-                <a href="https://www.linkedin.com/in/nathaniel-tabin-119244120">linkedin</a>
-            </p>
-        </section>
-    </section>
-
-    <footer>
-        <address>
-            Metro Manila, Philippines
-        </address>
-    </footer>
+    <script src="js/my.js"></script>
 </body>
 
-</html> -->
-
-
-<!-- Experience
-
-You_Source
-Software Engineer
-
-Company Name
-
-You_Source
-Dates Employed Jul 2019 – Present
-Employment Duration 10 mos
-
-Department of Science and Technology - Advanced Science and Technology Institute
-Science Research Specialist 1
-
-Company Name
-
-Department of Science and Technology - Advanced Science and Technology Institute
-Dates Employed May 2018 – Mar 2019
-Employment Duration 11 mos
-Location Philippines
-
-Develop Web Application using based on requirement using Grails(Groovy on Rails) and Angular 5.
-
-Successfully deployed Housing Beneficiaries and Monitoring Evaluation System(HBMES) to client.
-Daily use of agile development methodologies.
-Scale web application to 3 million rows of data.
-
-Citistores Inc
-Jr. Programmer
-
-Company Name
-
-Citistores Inc
-Dates Employed Jul 2016 – May 2018
-Employment Duration 1 yr 11 mos
-Location Pasig City, Philippines
-
-Develop, maintain, and support application programs using Visual Studio C#.net, VB.net, ASP.net MVC, MS SQL SERVER and SQL Server Integration Services.
-
-Develop ease of process in creating item percent off discount.
-Develop ease of printing reports for new system.
-Develop an application that tracks disk usage daily.
-Enable archiving of data for easy retrieval if needed.
-Enabled printing of barcode tag stickers stores.
-
-Infoman, Inc.
-Jr. Programmer
-
-Company Name
-
-Infoman, Inc.
-Dates Employed Apr 2014 – Jun 2016
-Employment Duration 2 yrs 3 mos
-Location Makati City, Metro Manila, Philippines
-
-Develop, maintain and support application programs for Salary and Loan Management system using Progress Open Edge and related tools. -->
+</html>
