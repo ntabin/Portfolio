@@ -1,16 +1,34 @@
-.separator {
-    height: 60px;
-    width: 100%; 
+html {
+    scroll-behavior: smooth;
 }
 
-:root {
-    --header-back-color: blueviolet;
-    --header-fore-color: white;
-    --card-border-color: blueviolet;
+body {
+    background-color: blueviolet;
 }
 
-.header-offset {
-    margin-top: -30px;
-    padding-top: 60px;
+#my-picture {
+    text-align: right;
+    display: block;
 }
 
+#my-profession {
+    text-align: center;
+}
+
+#btn-send-mail {
+    text-align: left;
+}
+
+.auto-nav-link {
+    padding-top: 3.1875rem;
+}
+
+@media screen and (max-width: 1280px) {
+    #my-picture {
+        text-align: center;
+        display: block;
+    }
+    #btn-send-mail {
+        text-align: center;
+    }
+}
