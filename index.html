@@ -6,48 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/mini-default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Nathaniel Tabin, Software Engineer</title>
 </head>
-<style>
-    body {
-        background-color: blueviolet;
-    }
-</style>
 
 <body>
+    <header class="sticky">
+        <a href="#profile" class="logo">Nath</a>
+        <a href="#about-me" class="button">About Me</a>
+        <a href="#projects" class="button">Projects</a>
+        <a href="#professional-experience" class="button">Pro</a>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="card fluid">
+                <div class="card fluid auto-nav-link" id="profile">
                     <div class="row">
-                        <div class="col-sm-12 col-md-4">
-                            <img src="image.png" alt="Image description" />
+                        <div class="col-sm-12 col-md-12 col-lg-3" id="my-picture" class="center-right">
+                            <img src="images/my-picture.png" width="120" height="160" class="circular" alt="My Picture" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h1>gfdgfdgdfg</h1>
+                        <div class="col-sm-12 col-md-12 col-lg-3" id="my-profession">
+                            <h1>Nathaniel Tabin</h1>
                             <h2>Software Engineer</h2>
-                            <a href="#" class="button circular" role="button"><i class="fa fa-linkedin"
-                                    aria-hidden="true"></i></a>
-                            <a href="https://stackoverflow.com/users/11656495/nathaniel-tabin" class="button circular" role="button"><i class="fa fa-stack-overflow"
-                                    aria-hidden="true"></i></a>
-                            <a href="https://github.com/ntabin" class="button circular" role="button"><i class="fa fa-github"
-                                    aria-hidden="true"></i></a>
-                            <a href="#" class="button circular" role="button"><i class="fa fa-facebook-official"
-                                    aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nathaniel-tabin-119244120" class="button circular" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://stackoverflow.com/users/11656495/nathaniel-tabin" class="button circular" role="button"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://github.com/ntabin" class="button circular" role="button"><i
+                                    class="fa fa-github" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <a href="mailTo:nathaniel.tabin@gmail.com" class="button tertiary" role="button" style="bottom: 0;">
-                                <i class="fa fa-paper-plane" aria-hidden="true"></i>Send Mail
-                            </a>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-sm-12 col-md-8">
-                <div class="card fluid">
+                <div class="card fluid auto-nav-link" id="about-me">
                     <div class="section double-padded">
                         <h2>About Me</h2>
                         <p>I build web apps, desktop Apps and mobile Apps</p>
@@ -74,8 +66,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="card fluid">
+                <div class="card fluid auto-nav-link" id="projects">
                     <h2 class="section double-padded">Projects</h2>
+                    <h3>Here are some of my personal projects.</h3>
                     <div class="section double-padded">
                         <strong>Pocket Quotes</strong>
                         <p><span class="icon-info"></span>Random quote Mobile app</p>
@@ -85,7 +78,8 @@
 
                     <div class="section double-padded">
                         <strong>Weather Application</strong>
-                        <p><span class="icon-info"></span>Weather forecast for the location/coordinates in your browser.</p>
+                        <p><span class="icon-info"></span>Weather forecast for the location/coordinates in your browser.
+                        </p>
                         <p><i class="fa fa-keyboard-o" aria-hidden="true"></i> HTML, CSS, Javascript</p>
                         <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/NMrqwy" target="_blank">Find out more.</a></p>
                     </div>
@@ -113,13 +107,16 @@
 
                     <div class="section double-padded">
                         <strong>Others</strong>
-                        <p><span class="icon-link"></span><a href="https://codepen.io/ntabin" target="_blank">Check out
-                                my other projects at Codepen</a></p>
+                        <p>Check out my other projects at: </p>
+                        <ul>
+                            <li><a href="https://github.com/ntabin">Github</a><span class="icon-link"></span></li>
+                            <li><a href="https://codepen.io/ntabin" target="_blank">Codepen</a><span class="icon-link"></span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card fluid">
-                    <h2 class="section double-padded">Work Experience</h2>
-
+                <div class="card fluid auto-nav-link" id="professional-experience">
+                    <h2 class="section double-padded">Professional Experience</h2>
+                    <h3>My journey as professional.</h3>
                     <div class="section double-padded">
                         <strong>Software Engineer</strong>, <a href="https://www.you-source.com/" target="_blank">You_Source</a>, July 2019 – Present
                         <p>Web Applications, Mobile Applications, Microservices and API integration</p>
@@ -159,9 +156,9 @@
                     <h2 class="section double-padded">Skills</h2>
                     <div class="section double-padded">
                         C#, ASP.Net / .Net Core
-                        <progress value="900" max="1000" class="primary"></progress> Angular/Javascript/Typescript
-                        <progress value="800" max="1000" class="primary"></progress> Database
-                        <progress value="900" max="1000" class="primary"></progress>
+                        <progress value="750" max="1000" class="primary"></progress> Angular/Javascript/Typescript
+                        <progress value="600" max="1000" class="primary"></progress> Database
+                        <progress value="750" max="1000" class="primary"></progress>
                     </div>
                 </div>
                 <div class="card fluid">
@@ -169,216 +166,11 @@
                     <div class="section double-padded">
                         <p><strong>B.S. Computer Engineering</strong></p>
                         <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>Jose Rizal University</p>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- 
-
-
-    <header class="row sticky">
-        <a href="#main" class="col-sm logo"><span class="icon-user"></span>Nathaniel Tabin</a>
-        <a href="#resume" class="button hidden-sm">Personal Stats</a>
-        <a href="#portfolio" class="button hidden-sm">Personal Projects</a>
-        <a href="#contact" class="button hidden-sm">Contact Me</a>
-        </div>
-        <label for="drawer-control" class="drawer-toggle hidden-md hidden-lg"></label>
-    </header>
-
-    <div class="hidden-md hidden-lg">
-        <input type="checkbox" id="drawer-control" class="drawer">
-        <div>
-            <label for="drawer-control" class="drawer-close"></label>
-            <p><a href="#resume" onclick="closeMenu()">Personal Stats</a></p>
-            <p><a href="#portfolio" onclick="closeMenu()">Personal Projects</a></p>
-            <p><a href="#contact" onclick="closeMenu()">Contact Me</a></p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1 col-lg-1"></div>
-            <div class="col-sm-12 col-md col-lg">
-                <section id="main" class="full-height header-offset">
-                    <div class="card fluid">
-                        <h2 class="section double-padded dark">About Me</h2>
-                        <div class="section">
-                            <p>I build web apps, desktop Apps and mobile Apps</p>
-                        </div>
-                        <div class="section">
-                            <span class="icon-info"></span><strong>I am a Backend Developer</strong>
-                            <p>C#, .NET/.NET Core, ASP, Web API</p>
-                        </div>
-                        <div class="section">
-                            <strong>And also a Frontend Developer</strong>
-                            <p>HTML, CSS, JavaScript/TypeScript, Angular, Ionic</p>
-                        </div>
-                        <div class="section">
-                            <strong>Specifically</strong>
-                            <ul>
-                                <li>Software Engineer</li>
-                                <li>Full Stack Developer</li>
-                            </ul>
-                        </div>
-                        <div class="section">
-                            <strong>Not a</strong>
-                            <ul>
-                                <li>Web Artisan</li>
-                                <li>10x Rockstar</li>
-                                <li>Designer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section id="resume" class="full-height header-offset">
-                    <div>
-                        <div class="card fluid">
-                            <h2 class="section double-padded dark">Personal Stats</h2>
-                            <p class="section">I have done and seen some things.</p>
-                            <h3 class="section dark">Professional Experience</h3>
-                            <div class="section">
-                                <strong>Software Engineer</strong>, <a href="https://www.you-source.com/" target="_blank">You_Source</a>, July 2019 – Present
-                            </div>
-                            <div class="section">
-                                <p>I do front and back-end development primarily using C#.</p>
-                            </div>
-
-                            <div class="section">
-                                <strong>Science Research Specialist 1</strong>, <a href="https://asti.dost.gov.ph/" target="_blank">DOST-ASTI</a>, May 2018 – Mar 2019
-                            </div>
-                            <div class="section">
-                                <p>
-                                    Project based job titled: <a href="https://asti.dost.gov.ph/communications/news-articles/hudcc-dost-astis-csd-facilitate-hbmes-end-user-training/" target="_blank">Housing Beneficiaries and Monitoring Evaluation System(HBMES)</a>
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        I developed Web Application using based on requirement using Grails(Groovy on Rails) and Angular 5.
-                                    </li>
-                                    <li>Daily use of agile development methodologies.
-                                    </li>
-                                    <li>
-                                        Scale web application to 3 million rows of data.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="section">
-                                <strong>Jr. Programmer</strong>, <a href="http://www.citistores.com/" target="blank">Citistores Inc.</a>, July 2016 – May 2018
-                            </div>
-                            <div class="section">
-                                <ul>
-                                    <li>Develop, maintain, and support application programs using Visual Studio C#.net, VB.net, ASP.net MVC, MS SQL SERVER and SQL Server Integration Services.</li>
-                                    <li>Develop Propery Control System</li>
-                                    <li>Develop ease of printing reports for new system.</li>
-                                    <li>Develop an application that tracks disk usage daily.</li>
-                                    <li>Enable archiving of data for easy retrieval if needed.</li>
-                                    <li>Enabled printing of barcode tag stickers stores.</li>
-                                </ul>
-                            </div>
-
-                            <div class="section">
-                                <strong>Jr. Programmer</strong>, <a href="http://www.infomaninc.com/" target="_blank">Infoman, Inc.</a>, April 2014 – June 2016
-                            </div>
-                            <div class="section">
-                                <ul>
-                                    <li>
-                                        I wrote Windows Desktop Programs using Progress Open Edge and related tools.
-                                    </li>
-                                    <li>
-                                        Develop, maintain and support application programs for Salary and Loan Management system.
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section dark">Skills</h3>
-                            <div class="section">
-                                <strong>Languages</strong>
-                                <p>C#, SQL, Javascript/Typescript, HTML, CSS, Groovy</p>
-
-                                <strong>Frameworks</strong>
-                                <p>ASP, .NET, .NET Core, Angular, Grails, Ionic</p>
-
-                                <strong>Database</strong>
-                                <p>SQLServer, PostgreSQL</p>
-
-                                <strong>Version Control</strong>
-                                <p>GIT</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="portfolio" class="full-height header-offset">
-                    <div class="full-height">
-                        <div class="card fluid">
-                            <h2 class="section double-padded dark">Here are some of my personal projects.</h2>
-                            <div class="section">
-                                <strong>Pocket Quotes</strong>
-                                <p><span class="icon-info"></span>Inspire yourself and others by browsing inspirational quotes from famous persons</p>
-                                <p><span class="icon-settings"></span>Angular, Typescript, Ionic</p>
-                                <p><span class="icon-link"></span><a href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>Weather Application</strong><span class="icon-link"></span>
-                                <p><span class="icon-info"></span>Weather forecast for your location.</p>
-                                <p><span class="icon-settings"></span>HTML, CSS, Javascript</p>
-                                <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/NMrqwy" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>Random Quotes Generator</strong><span class="icon-link"></span>
-                                <p><span class="icon-info"></span>Random quotes.</p>
-                                <p><span class="icon-settings"></span>HTML, CSS, Javascript</p>
-                                <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/jxqWNM" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>My Github Page</strong>
-                                <p><span class="icon-info"></span>This is the actual website itself hosted on github.</p>
-                                <p><span class="icon-settings"></span>HTML, CSS, Javascript, <a href="https://minicss.org/" target="_blank">minicss</a></p>
-                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/ntabin.github.io" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>WinformBubbleQuickSort</strong></span>
-                                <p><span class="icon-info"></span>My implementation of MVC on Winforms and Strategy pattern.</p>
-                                <p><span class="icon-settings"></span>C#, .Net, Winforms</p>
-                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/WinformBubbleQuickSort" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>SQLDigger</strong><span class="icon-link"></span>
-                                <p><span class="icon-info"></span>Easy Access Data Access SQL SERVER Database (For Now).Limitations: Cannot Alter Table,Columns,Stored Procedures</p>
-                                <p><span class="icon-settings"></span>C#, .Net, Winforms, SQLServer</p>
-                                <p><span class="icon-link"></span><a href="https://github.com/ntabin/SQLDigger" target="_blank">View project</a></p>
-                            </div>
-                            <div class="section">
-                                <strong>Others</strong><span class="icon-link"></span>
-                                <p><span class="icon-link"></span><a href="https://codepen.io/ntabin" target="_blank">Check out my other projects at Codepen</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="contact" class="full-height header-offset">
-                    <div class="card fluid">
-                        <h2 class="section double-padded dark">Contact Me</h2>
-                        <p><a href="mailTo:nathaniel.tabin@gmail.com"><span class="icon-mail"></span>Via Email</a></p>
-                        <p><a href="https://ph.linkedin.com/in/nathaniel-tabin-119244120" target="_blank">My Linkedin page.</a></p>
-                    </div>
-                </section>
-            </div>
-            <div class="col-md-1 col-lg-1"></div>
-        </div>
-    </div> -->
-
-    <script src="js/my.js"></script>
 </body>
 
 </html>
