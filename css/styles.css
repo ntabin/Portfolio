@@ -11,10 +11,6 @@ body {
     background-color: #cc66ff;
 }
 
-#welcome-section {
-    height: 100vh;
-}
-
 #my-picture {
     text-align: right;
     display: block;
