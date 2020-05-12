@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="JSjGGcjB5ZWsi0vX6KlDN87CMxXZXSorR80RmpoZ0dw" />
     <link rel="stylesheet" type="text/css" href="css/mini-default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -13,7 +14,7 @@
 <body>
     <header class="sticky">
         <a href="#profile" class="logo">Nath</a>
-        <a href="#about-me" class="button">About Me</a>
+        <a href="#welcome-section" class="button">About Me</a>
         <a href="#projects" class="button">Projects</a>
         <a href="#professional-experience" class="button">Pro</a>
     </header>
@@ -21,27 +22,31 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card fluid auto-nav-link" id="profile">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-3" id="my-picture" class="center-right">
-                            <img src="images/my-picture.png" class="circular" alt="My Picture" />
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-3" id="my-profession">
-                            <h1>Nathaniel Tabin</h1>
-                            <h2>Software Engineer</h2>
-                            <a href="https://www.linkedin.com/in/nathaniel-tabin-119244120" class="button circular" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://stackoverflow.com/users/11656495/nathaniel-tabin" class="button circular" role="button"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                            <a href="https://github.com/ntabin" class="button circular" role="button"><i
-                                    class="fa fa-github" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="section">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-3" id="my-picture" class="center-right">
+                                <img src="https://github.com/ntabin/Portfolio/raw/master/images/my-picture.png" width="120" height="160" class="circular" alt="My Picture" />
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3" id="my-profession">
+                                <h1>Nathaniel Tabin</h1>
+                                <h2>Software Engineer</h2>
+                                <a href="https://www.linkedin.com/in/nathaniel-tabin-119244120" class="button circular" role="button" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://stackoverflow.com/users/11656495/nathaniel-tabin" class="button circular" role="button" target="_blank"><i
+                                        class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                                <a href="https://github.com/ntabin" class="button circular" role="button" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                <a href="https://www.freecodecamp.org/ntabin" class="button circular" role="button" id="profile-link" target="_blank"><i class="fa fa-free-code-camp"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8">
-                <div class="card fluid auto-nav-link" id="about-me">
+            <div class="col-sm-12 col-md-8" id="welcome-section">
+                <div class="card fluid auto-nav-link">
                     <div class="section double-padded">
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
                         <p>I build web apps, desktop Apps and mobile Apps</p>
                     </div>
                     <div class="section double-padded">
@@ -67,16 +72,16 @@
                     </div>
                 </div>
                 <div class="card fluid auto-nav-link" id="projects">
-                    <h2 class="section double-padded">Projects</h2>
+                    <h1 class="section double-padded">Projects</h1>
                     <h3>Here are some of my personal projects.</h3>
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>Pocket Quotes</strong>
                         <p><span class="icon-info"></span>Random quote Mobile app</p>
                         <p><i class="fa fa-keyboard-o" aria-hidden="true"></i> Angular, Typescript, Ionic</p>
                         <p><span class="icon-link"></span><a href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes" target="_blank">Find out more.</a></p>
                     </div>
 
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>Weather Application</strong>
                         <p><span class="icon-info"></span>Weather forecast for the location/coordinates in your browser.
                         </p>
@@ -84,28 +89,28 @@
                         <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/NMrqwy" target="_blank">Find out more.</a></p>
                     </div>
 
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>Random Quotes Generator</strong>
                         <p><span class="icon-info"></span>Generate random quotes on the web</p>
                         <p><i class="fa fa-keyboard-o" aria-hidden="true"></i> HTML, CSS, Javascript</p>
                         <p><span class="icon-link"></span><a href="https://codepen.io/ntabin/pen/jxqWNM" target="_blank">View project</a></p>
                     </div>
 
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>WinformBubbleQuickSort</strong>
                         <p><span class="icon-info"></span>My implementation of MVC on Winforms and Strategy pattern.</p>
                         <p><i class="fa fa-keyboard-o" aria-hidden="true"></i> C#, .Net, Winforms</p>
                         <p><span class="icon-link"></span><a href="https://github.com/ntabin/WinformBubbleQuickSort" target="_blank">View project</a></p>
                     </div>
 
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>SQLDigger</strong>
                         <p><span class="icon-info"></span>Access database without query.</p>
                         <p><i class="fa fa-keyboard-o" aria-hidden="true"></i> C#, .Net, Winforms, SQLServer</p>
                         <p><span class="icon-link"></span><a href="https://github.com/ntabin/SQLDigger" target="_blank">View project</a></p>
                     </div>
 
-                    <div class="section double-padded">
+                    <div class="section double-padded project-tile">
                         <strong>Others</strong>
                         <p>Check out my other projects at: </p>
                         <ul>
@@ -115,7 +120,7 @@
                     </div>
                 </div>
                 <div class="card fluid auto-nav-link" id="professional-experience">
-                    <h2 class="section double-padded">Professional Experience</h2>
+                    <h1 class="section double-padded">Professional Experience</h1>
                     <h3>My journey as professional.</h3>
                     <div class="section double-padded">
                         <strong>Software Engineer</strong>, <a href="https://www.you-source.com/" target="_blank">You_Source</a>, July 2019 – Present
@@ -153,7 +158,7 @@
                     </div>
                 </div>
                 <div class="card fluid">
-                    <h2 class="section double-padded">Skills</h2>
+                    <h1 class="section double-padded">Skills</h1>
                     <div class="section double-padded">
                         C#, ASP.Net / .Net Core
                         <progress value="750" max="1000" class="primary"></progress> Angular/Javascript/Typescript

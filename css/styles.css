@@ -1,9 +1,14 @@
+:root {
+    --header-back-color: #9933ff;
+    --header-fore-color: white;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: blueviolet;
+    background-color: #cc66ff;
 }
 
 #my-picture {
