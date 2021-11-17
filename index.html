@@ -1,345 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Nathaniel Tabin</title>
-    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
-        type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <title> Nathaniel Tabin - Software Engineer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container clearfix">
-            <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile.png"
-                alt="profile image" width="150" height="50" />
-            <div class="profile-content float-left">
-                <h1 class="name">Nathaniel Tabin</h1>
-                <h2 class="desc">Software Engineer</h2>
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/nathaniel-tabin-119244120"
-                            target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="https://github.com/ntabin" target="_blank"><i
-                                class="fab fa-github-alt"></i></a></li>
-                    <li class="list-inline-item"><a href="https://stackoverflow.com/users/11656495/nathaniel-tabin"
-                            target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                    <li class="list-inline-item last-item"><a href="https://codepen.io/nathsu"><i
-                                class="fab fa-codepen"></i></a></li>
-                </ul>
-            </div>
-            <!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="mailto:natsutabs@gmail.com" target="_blank"><i
-                    class="fas fa-paper-plane"></i> Contact Me</a>
-        </div>
-        <!--//container-->
+    <header>
+        <nav id="navbar">
+            <h1 class="main-name"><a href="#mainPage">Nath<span class="other-name">aniel Tabin</span></a></h1>
+
+            <ul class="links">
+                <li><a href="#courseOfLife">Work</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <!--//header-->
-
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>
-                                I build web apps, desktop Apps and mobile Apps.
-                            </p>
-                            <p>
-                                <span class="text-success font-weight-bold lead">I am a Backend Developer</span> <br>
-                                <small class="ml-4">
-                                    C#, ASP.NET/.NET Core, Groovy on Rails(Grails) and SQL
-                                </small>
-                            </p>
-                            <p>
-                                <span class="text-success font-weight-bold lead">...and also a Frontend Developer</span>
-                                <br>
-                                <small class="ml-4">
-                                    HTML, CSS, Bootstrap, JavaScript/TypeScript, Angular, Ionic and Winforms
-                                </small>
-                            </p>
-                            <p>
-                                <span class="text-warning font-weight-bold lead">Specifically...</span> <br>
-                                <small class="ml-4">Software Engineer</small> <br>
-                                <small class="ml-4">Full Stack Software Developer</small>
-                            </p>
-                            <p>
-                                <span class="text-danger font-weight-bold lead">Not a</span> <br>
-                                <small class="ml-4">Web Artisan</small> </br>
-                                <small class="ml-4">10x Rockstar</small> </br>
-                                <small class="ml-4">Designer</small> </br>
-                            </p>
-
-                        </div>
-                        <!--//content-->
+    <div class="container">
+        <main>
+            <section id="mainPage">
+                <div class="intro-container">
+                    <img src="/assets/images/me.jpg" class="my-image" alt="Nathaniel Tabin" width="100" height="100" />
+                    <div>
+                        <h2>Hey, I'm Nathaniel Tabin</h2>
+                        <p>A web, mobile and software developer</p>
                     </div>
-                    <!--//section-inner-->
-                </section>
-                <!--//section-->
+                </div>
 
-                <section class="latest section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Some of my Personal Projects</h2>
-                        <div class="content">
-                            <div class="item row">
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://github.com/ntabin/PhilippinePlaces"
-                                            target="_blank">Philippine Places API</a></h3>
-                                    <p class="mb-2">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> An API for Philippine
-                                        Regions, Provinces, Cities, and barangays.
-                                    </p>
-                                    <p class="mb-2">
-                                        <i class="fa fa-keyboard" aria-hidden="true"></i> C#, Asp.Net Core Web API
-                                    </p>
-                                    <p><a class="more-link" href="https://github.com/ntabin/PhilippinePlaces"
-                                            target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a>
-                                    </p>
-                                </div>
-                                <!--//desc-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item row">
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a
-                                            href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes"
-                                            target="_blank">Pocket Quotes</a></h3>
-                                    <p class="mb-2"><i class="fa fa-info-circle" aria-hidden="true"></i> Inspire
-                                        yourself and others by browsing inspirational quotes from
-                                        famous persons.</p>
-                                    <p class="mb-2"><i class="fa fa-keyboard" aria-hidden="true"></i> Angular,
-                                        Typescript, Ionic</p>
-                                    <p><a class="more-link"
-                                            href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes"
-                                            target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a>
-                                    </p>
-                                </div>
-                                <!--//desc-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item row">
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://codepen.io/nathsu/full/NMrqwy"
-                                            target="_blank">Weather Application</a></h3>
-                                    <p class="mb-2"><i class="fa fa-info-circle" aria-hidden="true"></i> Weather
-                                        forecast for the location/coordinates in your browser. </p>
-                                    <p class="mb-2"><i class="fa fa-keyboard" aria-hidden="true"> </i> HTML, CSS,
-                                        Javascript</p>
-                                    <p><a class="more-link" href="https://codepen.io/nathsu/full/NMrqwy" target="_blank"><i
-                                                class="fas fa-external-link-alt"></i>Find out
-                                            more</a></p>
-                                </div>
-                                <!--//desc-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item row">
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">SQL Data Digger</h3>
-                                    <p class="mb-2"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                                        Access database easily for noobies. For now it is only functional for sqlite
-                                        databases.</br>
-                                        This is a private project of mine.
-                                    </p>
-                                    <p class="mb-2"><i class="fa fa-keyboard" aria-hidden="true"> </i> C#, .Net,
-                                        Winforms, SQLServer</p>
-                                </div>
-                                <!--//desc-->
-                            </div>
-                            <!--//item-->
-
-                        </div>
-                        <!--//content-->
+                <div class="tech-stack">
+                    <i class="fas fa-check-circle tech-stack__icon tech-stack__icon--success"></i>
+                    <div class="tech-stack__description">
+                        <h3 class="text-bold">For the Backend side, I mainly develop using</h3>
+                        <p>ASP.NET/.NET Core C# and SQL</p>
                     </div>
-                    <!--//section-inner-->
-                </section>
-                <!--//section-->
+                </div>
 
-                <section class="experience section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">I've been to many places</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a
-                                            href="https://www.you-source.com" target="_blank">You_Source</a></span> <span
-                                        class="year">(July 2019 – Present)</span></h3>
-                                <p>Web Applications, Mobile Applications, Microservices and API integration</p>
-                                <p><i class="fa fa-keyboard" aria-hidden="true"></i> C#, ASP.NET Core, Angular,
-                                    Typescript, Javascript, Ionic, Git, MS SQL SERVER</p>
-                            </div>
-                            <!--//item-->
-                            <div class="item">
-                                <h3 class="title">Science Research Specialist 1 - <span class="place"><a
-                                            href="https://asti.dost.gov.ph" target="_blank">DOST-ASTI</a></span> <span class="year">(May
-                                        2018 – March 2019)</span></h3>
-                                <ul>
-                                    <li>Develop Web Application using based on requirement using Grails(Groovy on Rails)
-                                        and Angular 5.</li>
-                                    <li>Scale web application to handle an estimated 3 million rows of data.</li>
-                                    <li>Conducted sprint review to government agencies related to housing.</li>
-                                    <li>Wrote technical documentation before project turnover.</li>
-                                </ul>
-                                <p><a href="https://asti.dost.gov.ph/communications/news-articles/hudcc-dost-astis-csd-facilitate-hbmes-end-user-training/"
-                                        target="_blank"><i class="fas fa-external-link-alt"></i> Housing Beneficiaries
-                                        and Monitoring Evaluation System(HBMES)</a></p>
-                                <p><i class="fa fa-keyboard" aria-hidden="true"></i> Groovy on Grails, Angular,
-                                    Typescript, JavaScript, Git, PostgreSQL</p>
-                            </div>
-                            <!--//item-->
-                            <div class="item">
-                                <h3 class="title">Jr. Programmer - <span class="place"><a href="http://citistores.net/"
-                                            target="_blank">Citistores Inc.</a></span> <span class="year">(July 2016 –
-                                        May 2018)</span></h3>
-                                <ul>
-                                    <li>Develop, maintain, and support application programs using Visual Studio C#.net,
-                                        VB.net, ASP.net MVC, MS SQL SERVER and SQL Server Integration Services.</li>
-                                    <li>Remove the burden on the I.T Department to the Merchandising Department on item
-                                        related processes such as discount and bundles.</li>
-                                    <li>Conducted hands on training with users.</li>
-                                </ul>
-
-                                <p><i class="fa fa-keyboard" aria-hidden="true"></i> C#, ASP.Net MVC, Winforms,
-                                    MS SQL SERVER</p>
-                            </div>
-                            <!--//item-->
-                            <div class="item">
-                                <h3 class="title">Jr. Programmer - <span class="place"><a
-                                            href="http://www.infomaninc.com" target="_blank">Infoman Inc.</a></span>
-                                    <span class="year">(April
-                                        2014 – June 2016)</span></h3>
-
-                                <ul>
-                                    <li>Develop, maintain and support application programs using Progress Open Edge and
-                                        related tools.</li>
-                                    <li>Maintain legacy tech stack desktop applications.</li>
-                                    <li>Develop, maintain and support desktop applications for Salary and Loan
-                                        Management (SLM) System.</li>
-                                </ul>
-                                <p><i class="fa fa-keyboard" aria-hidden="true"></i> Progress OpenEdge</p>
-                            </div>
-                            <!--//item-->
-
-
-                        </div>
-                        <!--//content-->
+                <div class="tech-stack">
+                    <i class="fas fa-check-circle tech-stack__icon tech-stack__icon--success"></i>
+                    <div class="tech-stack__description">
+                        <h3 class="text-bold">And for the Frontend side...</h3>
+                        <p>For the web: HTML, CSS, JavaScript TypeScript, Angular.</p>
+                        <p>And for mobile: Ionic Framework.</p>
                     </div>
-                    <!--//section-inner-->
-                </section>
-                <!--//section-->
-            </div>
-            <!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                <aside class="info aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Metro Manila,
-                                    Philippines</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
-                                        href="mailTo:natsutabs@gmail.com">natsutabs@gmail.com</a></li>
-                            </ul>
-                        </div>
-                        <!--//content-->
-                    </div>
-                    <!--//section-inner-->
-                </aside>
-                <!--//aside-->
+                </div>
 
-                <aside class="education aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.S. Computer Engineering</h3>
-                                <h4 class="university">Jose Rizal University
-                                </h4>
-                            </div>
-                            <!--//item-->
-                        </div>
-                        <!--//content-->
+                <div class="tech-stack">
+                    <i class="fas fa-plus-circle tech-stack__icon tech-stack__icon--warning"></i>
+                    <div class="tech-stack__description">
+                        <h3 class="text-bold">Specifically I'm a...</h3>
+                        <p>Software Engineer</p>
+                        <p>Full Stack Software Developer</p>
                     </div>
-                    <!--//section-inner-->
-                </aside>
-                <!--//section-->
+                </div>
 
-                <aside class="list conferences aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Certifications</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-certificate" aria-hidden="true"></i> <a href="https://www.credly.com/badges/e91562f8-7dfd-47f5-b3f7-fab5ebfa811e"
-                                    target="_blank">Microsoft Certified: Azure Fundamentals</a></li>
-                                <li><i class="fa fa-certificate" aria-hidden="true"></i> <a href="https://www.freecodecamp.org/certification/ntabin/javascript-algorithms-and-data-structures"
-                                    target="_blank">JavaScript Algorithms and Data Structures</a></li>
-                                <li><i class="fa fa-certificate" aria-hidden="true"></i> <a href="https://www.freecodecamp.org/certification/ntabin/apis-and-microservices"
-                                    target="_blank">APIs and Microservices</a></li>
-                                <li><i class="fa fa-certificate" aria-hidden="true"></i> <a href="https://www.freecodecamp.org/certification/ntabin/responsive-web-design"
-                                    target="_blank">Responsive Web Design</a></li>
-                                
-                            </ul>
-                        </div>
-                        <!--//content-->
+
+                <div class="tech-stack">
+                    <i class="fas fa-minus-circle tech-stack__icon tech-stack__icon--danger"></i>
+                    <div class="tech-stack__description">
+                        <h3 class="text-bold">I'm not a </h3>
+                        <p><a href="https://www.google.com/search?q=10x+programmer" target="_blank">10x Programmer <i
+                                    class="fas fa-external-link-alt"></i></a></p>
+                        <p><a href="https://www.google.com/search?q=rockstar+programmer">Rockstar Programmer <i
+                                    class="fas fa-external-link-alt"></i></a></p>
+                        <p><a href="https://www.google.com/search?q=ui%2Fux+designer" target="_blank">UI/UX Designer <i
+                                    class="fas fa-external-link-alt"></i></a></p>
                     </div>
-                    <!--//section-inner-->
-                </aside>
-                <!--//section-->
-
-                <aside class="list conferences aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Awards</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-star" aria-hidden="true"></i> Time Magazine Person of the year 2006
-                                </li>
-                            </ul>
-                        </div>
-                        <!--//content-->
+                </div>
+            </section>
+            <section id="courseOfLife">
+                <h2 class="intro">Places I've worked for.</h2>
+                <div class="job">
+                    <h3 class="job__h3"><span class="job__position">Software Engineer</span> - <span><a
+                                href="https://www.you-source.com" target="_blank">You_Source</a> (July 2019 –
+                            Present)</span></h3>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-tasks job__responsibilities__icon"></i>
+                        <p class="job__responsibilities__skills">Cloud Infrastracture, Web Applications, Mobile
+                            Applications, Microservices and API integration</p>
                     </div>
-                    <!--//section-inner-->
-                </aside>
-                <!--//section-->
+                    <div class="job__responsibilities">
+                        <i class="fas fa-code job__responsibilities__icon"></i>
+                        <p class="job__responsibilities__skills"> C#, ASP.NET Core, Angular, Typescript, Javascript,
+                            Ionic, Git, MS SQL SERVER</p>
+                    </div>
+                </div>
 
-            </div>
-            <!--//secondary-->
-        </div>
-        <!--//row-->
+                <div class="job">
+                    <h3 class="job__h3"><span class="job__position">Science Research Specialist 1</span> - <span><a
+                                href="https://asti.dost.gov.ph/" target="_blank">DOST-ASTI</a> (May 2018 – March
+                            2019)</span></h3>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-tasks job__responsibilities__icon"></i>
+                        <div class="job__responsibilities__skills">
+                            <p>Web Application and Scaling.</p>
+                            <p>Scale web application to handle an estimated 3 million rows of data.</p>
+                            <p>Wrote technical documentation.</p>
+                        </div>
+                    </div>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-code job__responsibilities__icon"></i>
+                        <p class="job__responsibilities__skills"> Groovy on Grails, Angular, Typescript, JavaScript,
+                            Git, PostgreSQL</p>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <h3 class="job__h3"><span class="job__position">Jr. Programmer</span> - <span><a
+                                href="http://citistores.net/" target="_blank">Citistores Inc.</a> (July 2016 – May
+                            2018)</span></h3>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-tasks job__responsibilities__icon"></i>
+                        <div class="job__responsibilities__skills">
+                            <p>Migration to new system.</p>
+                            <p>Log items printed after printing barcodes.</p>
+                        </div>
+                    </div>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-code text-color-green"></i>
+                        <p class="job__responsibilities__skills"> C#, ASP.Net MVC, Winforms, MS SQL SERVER</p>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <h3 class="job__h3"><span class="job__position">Jr. Programmer</span> - <span><a
+                                href="http://www.infomaninc.com/" target="_blank">Infoman Inc.</a> (April 2014 – June
+                            2016)</span></h3>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-tasks job__responsibilities__icon"></i>
+                        <div class="job__responsibilities__skills">
+                            <p>Maintain legacy desktop applications.</p>
+                            <p>Develop, maintain and support desktop applications for Salary and Loan Management (SLM)
+                                System.</p>
+                        </div>
+                    </div>
+                    <div class="job__responsibilities">
+                        <i class="fas fa-code text-color-green"></i>
+                        <p class="job__responsibilities__skills"> Progress OpenEdge</p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h2 class="intro">Some things I've done for a while.</h2>
+                <div class="project">
+                    <h3 class="project__name"><a
+                            href="https://play.google.com/store/apps/details?id=com.ntabin.pocket_quotes"
+                            target="_blank">Pocket Quotes</a></h3>
+                    <div class="project__description">
+                        <i class="far fa-building project__description__icon"></i>
+                        <p>Inspire yourself and others by browsing inspirational quotes from famous persons.</p>
+                    </div>
+                    <div class="project__description">
+                        <i class="fas fa-code text-color-green project__description__icon"></i>
+                        <p>Angular, Typescript, Ionic</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project__name"><a href="https://github.com/ntabin/PhilippinePlaces"
+                            target="_blank">Philippine Places API</a></h3>
+                    <div class="project__description">
+                        <i class="far fa-building project__description__icon"></i>
+                        <p>An API for Philippine Regions, Provinces, Cities, and barangays.</p>
+                    </div>
+                    <div class="project__description">
+                        <i class="fas fa-code project__description__icon"></i>
+                        <p>C#, Asp.Net Core Web API </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project__name">SQL Data Digger</h3>
+                    <div class="project__description">
+                        <i class="far fa-building project__description__icon"></i>
+                        <p> Access database easily for noobies. For now it is only functional for sqlite databases. This
+                            is a private project of mine. </p>
+                    </div>
+                    <div class="project__description">
+                        <i class="fas fa-code project__description__icon"></i>
+                        <p>C#, .Net, Winforms, SQLServer </p>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts">
+                <h2 class="intro">Let's work together...</h2>
+                <div class="profile">
+                    <a href="mailTo:natsutabs@gmail.com" class="profile--links">
+                        <i class="fas fa-at"> Send a mail</i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nathaniel-tabin-119244120" class="profile--links">
+                        <i class="fab fa-linkedin"></i> Linkedin</i>
+                    </a>
+                    <a href="https://github.com/ntabin" class="profile--links">
+                        <i class="fab fa-github-square"></i> Github
+                    </a>
+                    <a href="https://forum.freecodecamp.org/u/nathaniel.tabin/" class="profile--links">
+                        <i class="fab fa-free-code-camp"></i></i> FreeCodeCamp
+                    </a>
+                </div>
+            </section>
+        </main>
     </div>
-    <!--//masonry-->
-
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-        <div class="container text-center">
-            <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a
-                    href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div>
-        <!--//container-->
+    <footer>
+        <p class="text-align-center"><i class="fas fa-map-marker-alt"></i> Metro Manila, Philippines</p>
     </footer>
-    <!--//footer-->
-
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
