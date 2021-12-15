@@ -19,15 +19,8 @@ body {
     padding-bottom: 6rem;
     min-height: 100%;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    background-color: white;
-    color: black;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #49515a;
-        color: white;
-    }
+    background-color: #49515a;
+    color: white;
 }
 
 nav {
